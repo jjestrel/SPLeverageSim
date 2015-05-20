@@ -15,6 +15,7 @@ This simulation makes some assumptions that leave room for improvement.
 * Cost of future heart medication required from increased stress of playing daily market movement is ignored
 * Only the trailing 10 years of daily market movement could be retrieved, thus the results may be further skewed.
 * Each simulation is run over 365 days (365 possible buying periods)
+* We assume that the leveraged ETFs would pay *no* cost to maintain their leverage (borrowing/other instruments) which is not true. This will lead to higher returns than what would be possible employing this strategy in real life.
 
 # Conclusions
 Ultimately the purpose of this program was to convince someone that if they truly believe they could predict the market's direction with 60% accuracy they should buy 2x and 3x leveraged ETFs on days where they believed they could predict the market movement.
