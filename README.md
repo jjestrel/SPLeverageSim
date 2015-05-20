@@ -33,4 +33,5 @@ Where a `success = currentMoney >= START_MONEY`
 
 and a `failure = currentMoney < START_MONEY`
 
-The following is a histogram where START_MONEY was set to $10,000 for the sake of clarity in reading the histogram.
+The following is a histogram where START_MONEY was set to $10,000 for the sake of clarity in reading the histogram. Note the histogram is mislabelled, this does not occur in the running version of the program.
+![Results](https://raw.githubusercontent.com/jjestrel/SPLeverageSim/master/sim_results.png)
